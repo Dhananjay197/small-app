@@ -1,0 +1,22 @@
+.promo{
+    background: url(../../../assets/images/promo-video-back.jpg);
+    background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+
+   .content{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+          .head{
+            font-size: 30px;
+            color: #fff;
+            font-weight: 200;
+        }
+   }
+   
+   .MuiSvgIcon-root{
+    font-size: 100px !important;
+ }
+}

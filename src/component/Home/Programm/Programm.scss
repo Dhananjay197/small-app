@@ -1,0 +1,50 @@
+.programm{
+    .data{
+        background-color: #0a305f;
+        color: #ffff;
+        padding: 10px 0px;
+    }
+    .army{
+       position: relative;
+       width: 30%;
+      
+    }
+    .school-img{
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .9s ease;
+        backface-visibility: hidden;
+      }
+      .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+.army:hover .school-img {
+    background-color: #2678d6;
+    opacity: 0.5;
+  }
+  .army:hover .middle {
+    
+    opacity: 1;
+  }
+  .pc{
+    color: white;
+    font-size: 11px;
+    padding: 10px 32px;
+  }
+  .text {
+    background-color: #dd1b1b;
+    color: white;
+    font-size: 11px;
+    padding: 10px 32px;
+  }
+    }

@@ -1,0 +1,20 @@
+.social-app{
+    color: #fff;
+    background: #2e7eed;
+
+
+    .btn-social-icon{
+        border-radius: 100px;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 13px 50px;
+        font-weight: 400;
+        text-align: center;
+        user-select: none;
+        background-color: transparent;
+        text-decoration: none;
+        &:hover{
+            border-color: none !important;
+        }
+    }
+}
