@@ -4,6 +4,7 @@ import About from './component/About/About';
 import Contact from './component/Contact/Contact';
 import Home from './pages/Home';
 import Header from './component/Shared/Header/Header'
+import Footer from './component/Shared/Footer/Footer';
 import Error from './component/Shared/Error/Error';
 import 'aos';
 
@@ -20,6 +21,7 @@ const App = () => {
   
     <Route path="*" element={<Error />}/>
     </Routes>
+    <Footer />
     </>
   )
 }
