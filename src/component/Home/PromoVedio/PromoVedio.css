@@ -1,0 +1,30 @@
+.promo {
+  background: url(../../../assets/images/promo-video-back.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.promo .content {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.promo .content .head {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 200;
+}
+.promo .MuiSvgIcon-root {
+  font-size: 100px !important;
+}
+
+.modal .modal-body {
+  background: transparent;
+}
+@media screen and (max-width: 991px) {
+  .modal .modal-body .modal-vedio {
+    width: 320px;
+    height: 170px;
+  }
+}/*# sourceMappingURL=PromoVedio.css.map */

@@ -71,7 +71,7 @@ const Footer = () => {
       <div className="container-fluid bg-dark">
           <div className="col-md-12  last-footer">
             <p className='text-center text-muted last-para p-2'>Copyright © 2022. Designed & Developed by Themefisher</p>
-            <h5 className='text-center text-muted last-para p-3'>Distributed By <span>Themewagon</span></h5>
+            <h6 className='text-center text-muted last-para p-3'>Distributed By <span>Themewagon</span></h6>
           </div>
         </div>
     </footer>

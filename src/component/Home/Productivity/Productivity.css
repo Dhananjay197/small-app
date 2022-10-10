@@ -1,0 +1,26 @@
+.productivity .head {
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 50px;
+}
+.productivity .para {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+  color: #808080;
+  margin-bottom: 0;
+}
+.productivity .testimonial .vision {
+  font-family: "Lora", serif;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #242424;
+}
+.productivity .testimonial ul {
+  list-style-type: none;
+}
+.productivity .testimonial ul li .test-img {
+  margin-right: 10px;
+}/*# sourceMappingURL=Productivity.css.map */

@@ -1,0 +1,21 @@
+.heading .margin {
+  margin-top: -60px;
+}
+.heading .margin .radius {
+  border-radius: 10px;
+}
+.heading .icon {
+  font-size: 50px !important;
+  color: #007bff;
+}
+.heading .main-heading {
+  font-size: 1.25rem;
+}
+.heading .regular {
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+.MuiSvgIcon-root {
+  font-size: 47px !important;
+}/*# sourceMappingURL=Heading.css.map */

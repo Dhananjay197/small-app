@@ -14,8 +14,10 @@ const Banner = () => {
 					showcase your App.</p>
                     <a href="#" className="btn btn-main my-5">Download Now</a>
                 </div>
-                <div className="col-md-6 mt-5">
-                    <img src={mobile} alt="" className='img-fluid' />
+                <div className="col-md-6 mt-5 animation">
+                    <div className='' >
+                    <img src={mobile} alt="" className='img-fluid ' />
+                    </div>
                 </div>
             </div>
         </div>

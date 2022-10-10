@@ -1,0 +1,12 @@
+.slider .swiper-slide {
+  margin-top: 30px;
+}
+.slider .crousel .para {
+  font-family: "Lora", serif;
+  font-style: italic;
+  color: #888888;
+  font-size: 16px;
+}
+.slider .swiper-pagination {
+  position: unset !important;
+}/*# sourceMappingURL=CrouselSwiper.css.map */

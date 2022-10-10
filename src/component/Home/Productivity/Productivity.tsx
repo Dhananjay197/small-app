@@ -20,7 +20,7 @@ const Productivity = () => {
                         <div className="row ">
                             <Productivityprops
                                 img={feature}
-                                aos="fade-right "
+                                aos="fade-right"
                                 text='Increase your productivity with Small Apps'
                                 heading="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 

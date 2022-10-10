@@ -1,0 +1,43 @@
+.showcase-section .showcase-header {
+  background-image: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
+  padding: 73px 0px;
+  border-radius: 0px 0px 70px 70px;
+}
+.showcase-section .showcase-header .detail .btn-main {
+  padding: 21px 40px;
+  background-color: #2e7eed;
+  color: white;
+  font-size: 20px;
+}
+.showcase-section .showcase-header .animation {
+  position: relative;
+}
+.showcase-section .showcase-header .animation img {
+  height: auto;
+  -webkit-animation: UpDown 1s linear infinite;
+          animation: UpDown 1s linear infinite;
+  position: absolute;
+  left: 0;
+}
+@-webkit-keyframes UpDown {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 0.5em;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+@keyframes UpDown {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 0.5em;
+  }
+  100% {
+    bottom: 0;
+  }
+}/*# sourceMappingURL=Banner.css.map */

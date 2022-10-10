@@ -1,0 +1,25 @@
+.social-app {
+  color: #fff;
+  background: #2e7eed;
+}
+.social-app .btn-social-icon {
+  border-radius: 100px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 13px 50px;
+  font-weight: 400;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: transparent;
+  text-decoration: none;
+}
+.social-app .btn-social-icon:hover {
+  border-color: none !important;
+}
+.social-app .MuiSvgIcon-root {
+  color: #fff;
+  padding: 3px 0px 9px;
+}/*# sourceMappingURL=SocialApp.css.map */

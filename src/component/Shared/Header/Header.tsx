@@ -1,8 +1,20 @@
 import React from 'react'
 import './Header.scss';
+import { Link, useLocation } from 'react-router-dom';
 import logo from "../../../assets/images/logo.png";
 
+
 const Header = () => {
+
+  //aasigning location variable
+  const location = useLocation();
+
+  //destructing pathname from location
+  const { pathname } = location;
+
+  //javascript split method to get the name of the path in array
+  const splitLocation = pathname.split("/");
+
   return (
     <section>
       <div className="container">
@@ -16,28 +28,11 @@ const Header = () => {
             </button>
             <div className="collapse navbar-collapse " id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto ">
-                {/* <li className="nav-item dropdown mx-2">
-                  <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    HOME
-                  </a>
-                  <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Homepage</a></li>
-                    <li><a className="dropdown-item" href="#">Homepage2</a></li>
-                    <li><a className="dropdown-item" href="#">Homepage3</a></li>
-                    <li className="nav-item dropdown">
-                      <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Submenu</a>
-                      <ul className='dropdown-menu' >
-                        <li><a className='dropdown-item' href='' >Submenu11</a></li>
-                        <li><a className='dropdown-item' href='' >Submenu12</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li> */}
+              
                  <li className="nav-item dropdown dropdown-right mx-2">
-                  <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <Link to="/" className={`nav-link dropdown-toggle  ${splitLocation[1] === "" ? "active" : ""}`} >
                    HOME
-                  </a>
+                  </Link>
                   <ul className="dropdown-menu dropdown-right-menu" aria-labelledby="dropdownMenuButton">
                     <li><a className="dropdown-item" href="#">Action</a></li>
                     <li>
@@ -69,9 +64,9 @@ const Header = () => {
                 </li>
                
                 <li className="nav-item dropdown dropdown-left mx-2">
-                  <a className="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <Link to="/pages" className={`nav-link  dropdown-toggle ${splitLocation[1] === "pages" ? "active" : ""}`}  >
                     PAGES
-                  </a>
+                  </Link>
                   <ul className="dropdown-menu dropdown-left-menu" aria-labelledby="dropdownMenuButton">
                     <li><a className="dropdown-item" href="#">Action</a></li>
                     <li>
@@ -102,10 +97,10 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="nav-item mx-2">
-                  <a className="nav-link active" aria-current="page" href="#">ABOUT</a>
+                  <Link to="/about" className={`nav-link  ${splitLocation[1] === "about" ? "active" : ""}`}>ABOUT</Link>
                 </li>
                 <li className="nav-item mx-2">
-                  <a className="nav-link active" aria-current="page" href="#">CONTACT</a>
+                <Link to="/contact" className={`nav-link  ${splitLocation[1] === "contact" ? "active" : ""}`}>CONTACT</Link>
                 </li>
 
               </ul>

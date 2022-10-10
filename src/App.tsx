@@ -7,6 +7,7 @@ import Header from './component/Shared/Header/Header'
 import Footer from './component/Shared/Footer/Footer';
 import Error from './component/Shared/Error/Error';
 import 'aos';
+import Pages from './component/Pages/Pages';
 
 
 
@@ -16,6 +17,7 @@ const App = () => {
     <Header />
     <Routes>
     <Route path="/" element={<Home />}/>
+    <Route path="/pages" element={<Pages/>}/>
     <Route path="/about" element={<About />}/>
     <Route path='/contact' element={<Contact />}/>
   
