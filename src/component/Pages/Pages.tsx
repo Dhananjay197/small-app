@@ -1,5 +1,4 @@
 import React from 'react'
-import  './Pages.scss';
 
 const Pages = () => {
   return (
