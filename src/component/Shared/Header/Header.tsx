@@ -101,6 +101,8 @@ const Header = () => {
                 </li>
                 <li className="nav-item mx-2">
                 <Link to="/contact" className={`nav-link  ${splitLocation[1] === "contact" ? "active" : ""}`}>CONTACT</Link>
+                </li> <li className="nav-item mx-2">
+                  <Link to="/product" className={`nav-link  ${splitLocation[1] === "about" ? "active" : ""}`}>PRODUCT</Link>
                 </li>
 
               </ul>

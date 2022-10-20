@@ -3,12 +3,13 @@ import './Contact.scss'
 import imgg from '../../assets/images/Group 87.svg'
 const Contact = () => {
   return (
-    <>
+ 
       <section className='contact-image '>
+        <div className="container">
         <div className='row'>
           <div className="col-lg-6 class-image">
 
-            <img src={imgg} height="400px" width="100%" />
+            <img src={imgg} className="img-fluid" height="400px" width="100%" />
             <h3></h3>
 
           </div>
@@ -32,10 +33,12 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        </div>
+       
 
 
       </section>
-    </>
+    
   )
 }
 

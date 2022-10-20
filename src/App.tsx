@@ -8,6 +8,7 @@ import Footer from './component/Shared/Footer/Footer';
 import Error from './component/Shared/Error/Error';
 import 'aos';
 import Pages from './component/Pages/Pages';
+import Product from './component/Product/Product';
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
     <Route path="/pages" element={<Pages/>}/>
     <Route path="/about" element={<About />}/>
     <Route path='/contact' element={<Contact />}/>
+    <Route path='/product' element={<Product />}/>
   
     <Route path="*" element={<Error />}/>
     </Routes>
